@@ -16,7 +16,7 @@
         <action
                 id="MyPlugin.MyAction"
                 class="org.example.demo.MyPluginAction"
-                text="My Plugin Action"
+                text="Code Cleaner"
                 description="Does something useful">
             <add-to-group group-id="EditorPopupMenu" anchor="last"/>
         </action>
