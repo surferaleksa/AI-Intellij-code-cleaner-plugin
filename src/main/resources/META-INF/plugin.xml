@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>org.example.demo</id>
+
+    <name>Demo</name>
+
+    <vendor url="https://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+        Enter short description for your plugin here.<br>
+        <em>most HTML tags may be used</em>
+        ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <actions>
+        <action
+                id="MyPlugin.MyAction"
+                class="org.example.demo.MyPluginAction"
+                text="My Plugin Action"
+                description="Does something useful">
+            <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
